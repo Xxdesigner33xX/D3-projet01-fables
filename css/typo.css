@@ -1,0 +1,82 @@
+/* Polices utilisées dans le header */
+@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
+/* Polices utilisées dans fable 1 */
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Sirin+Stencil&display=swap');
+/* Polices utilisées dans fable 2 */
+@import url('https://fonts.googleapis.com/css?family=Bangers|Handlee&display=swap');
+/* Polices utilisées dans fable 3 */
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Yeon+Sung&display=swap');
+
+
+header {
+  font-family: 'Turret Road';
+}
+
+header h1 {
+  font-size: 4.25em;
+  text-align: center;
+}
+
+header p {
+  font-size: 2.25em;
+  text-align: center;
+}
+
+/* Styles partagés par tous les éléments ayant la même class */
+
+.fable-moral {
+  font-size: 3.052em;
+  margin: 2.75rem 0 1rem;
+}
+
+/* Styles du texte de fable 1 */
+
+#fable01 {
+  font-family: 'Mansalva', sans-serif;
+}
+
+#fable01 h2 {
+  font-size: 3.052em;
+  margin: 2.75rem 0 2.75rem 0;
+  font-family: 'Sirin Stencil', serif;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+#fable01 p {
+  margin-bottom: 1.25em;
+}
+
+#fable01 .fable-moral {
+    font-family: 'Mansalva', serif;
+    text-align: right;
+}
+
+/* Styles du texte de fable 2 */
+
+#fable02 {
+  font-family: 'Handlee';
+}
+
+#fable02 h2 {
+  font-family: 'Bangers';
+  font-size: 8em;
+}
+
+#fable02 {
+
+}
+
+/* Styles du texte de fable 3 */
+
+#fable03 {
+  font-family: 'Yeon Sung';
+}
+
+#fable03 h2 {
+  font-family: 'Liu Jian Mao Cao';
+  margin: 0;
+  font-size: 12em;
+  line-height: 0.75;
+  text-align: center;
+}

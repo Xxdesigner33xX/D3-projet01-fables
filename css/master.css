@@ -1,0 +1,149 @@
+body {
+  margin : 2;
+}
+
+header {
+  min-height: 10vh;
+  padding: 1em;
+  background-color: rgba(138,24,0,1);
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*test*/
+
+.header-content {
+
+   /* Font options */
+  font-family: 'Turret Road', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:40px;
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+.container{
+  background-color:#E0F2F1;
+  padding:10px;
+  border-radius:15px;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+/* SECTION DE LA FABLE 1*/
+
+section {
+    min-height: 100vh;
+}
+ /* bloc de fond */
+#fable01 {
+  min-height: 60vh;
+  background: #002D33;
+  color: #fff;
+  overflow: hidden;
+  padding: 8px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* gestion du bloc texte*/
+#fable01 .text-content {
+  background: rgba(1, 113, 128, 0.8);
+  padding: 4px;
+  margin: 6px;
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+/* gestion du bloc où se situe l'image*/
+#fable01 figure {
+  flex-basis: 30px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+}
+#fable01 figure img {
+  width : 100%;
+  border : 4px solid #000;
+}
+
+
+/*SECTION DE LA FABLE 2*/
+
+/* gestion de l'image de fond*/
+#fable02 {
+  min-height: 60vh;
+  background: #6b7b00 url('images/aigle.png') center center no-repeat;
+color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 110px;
+}
+
+/* gestion du bloc de texte*/
+#fable02 .text-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 42px;
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+
+  max-width: 620px;
+}
+
+/*SECTION DE LA FABLE 3*/
+
+#fable03 {
+  overflow: hidden;
+  background: #efefef url('images/star.jpg');
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fable03 .main-content {
+    max-width: 480px;
+}
+
+#fable03 p {
+  background: #000;
+  color: #fff;
+  padding: 4vw;
+  border-radius: 12px;
+}
